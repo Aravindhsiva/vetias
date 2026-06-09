@@ -31,7 +31,6 @@ void main(){
     //greetUser("Manager");
     int result = add(5, 4);
     System.out.println(result);
-
     System.out.println(add(5, 5));
 }
 

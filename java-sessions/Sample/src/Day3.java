@@ -76,3 +76,7 @@ void main(){
         System.out.println("Item not found");
     }
 }
+
+public void sayHello(){
+    System.out.println("Hello World");
+}
