@@ -1,4 +1,5 @@
 void main(){
+    /*
     // int[] marks = new int[5];
     int[][] marks = new int[5][3];
     int[][] studentMarks = {
@@ -23,4 +24,23 @@ void main(){
         }
         System.out.println();
     }
+    */
+
+    //greetUser("Aravindh");
+    //greetUser("Raj");
+    //greetUser("Manager");
+    int result = add(5, 4);
+    System.out.println(result);
+
+    System.out.println(add(5, 5));
+}
+
+public void greetUser(String name){
+    System.out.println("Hello World, "+name);
+}
+
+// +,- *, /, %
+
+public int add(int a, int b){
+    return a+b;
 }

@@ -1,0 +1,21 @@
+Input:
+[
+[0,1,0]
+[1,0,0]
+[1,1,1]
+[1, 0, 1]
+[0,0,0]
+]
+
+
+Output :
+Student 1:
+Class1: Absent
+Class2: Present
+Class3: Absent
+….
+....
+....
+....
+....
+.
