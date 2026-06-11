@@ -1,0 +1,15 @@
+
+int[][] studentMarks = {
+        {78, 90, 34},
+        {89, 65, 89},
+        {12, 34, 56},
+        {66, 12, 89},
+        {33, 77, 88}
+};
+
+1. Total
+2. Average
+3. printTable()
+ S.No Name M P C
+ 1 Student1 56 67 89
+ 2 Student2 45 34 45

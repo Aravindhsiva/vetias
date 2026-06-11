@@ -1,0 +1,7 @@
+
+Input : [87, 32, 44,89, 23 ]
+
+Expected Output :
+
+Pass Marks : 87, 44, 89
+Fail Marks : 23, 32
