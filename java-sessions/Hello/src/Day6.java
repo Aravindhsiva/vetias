@@ -1,6 +1,6 @@
 public class Day6 {
     static class Employee {
-        String name;
+        private String name;
         int salary;
         String id;
         int balance;
@@ -8,20 +8,22 @@ public class Day6 {
         Employee(){
             System.out.println("Constructor called");
         }
-        //Employee(String name, int salary){
-          //  this.name=name;
-            //this.salary=salary;
-        //}
+
         Employee(String name, int salary, String id){
             this.name=name;
             this.salary=salary;
             this.id=id;
         }
-
+        int getBalance(){
+            return this.balance;
+        }
+        void setBalance(int balance){
+            this.balance=balance;
+        }
         // It'll handle payments
         // It'll take salary and put it in  balance
         void payEmployee(int salary){
-            balance+=salary;
+            setBalance(balance+salary);
             this.salary=salary;
         }
         void expense(int expense){
