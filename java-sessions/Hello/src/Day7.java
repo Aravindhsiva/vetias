@@ -9,7 +9,6 @@ public class Day7 {
         }
 
         void send(){
-
         }
     }
 
@@ -20,6 +19,11 @@ public class Day7 {
 
         void sendAudioNotification(){
             System.out.println("Sending audio notification...");
+            //login
+            //message
+            //internet
+            // send
+            // acknowledgement
         }
     }
 
@@ -37,6 +41,7 @@ public class Day7 {
     public static void main(String[] args){
         AudioNotification audioNotification = new AudioNotification("   arvaindg@gmsail.com    ");
         audioNotification.sendAudioNotification();
+        audioNotification.
 
         TextNotification textNotification = new TextNotification("   1234567890    ");
         textNotification.sendTextNotification();
