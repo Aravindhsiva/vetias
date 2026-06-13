@@ -1,13 +1,13 @@
 public class Day6_Part2 {
     /*static class Employee {
-        int balance;
-        int salary;
-        Employee(int balance, int salary){
-            this.balance=balance;
-            this.salary=salary;
-        }
-
-        //getter
+        //        int balance;
+        //        int salary;
+        //        Employee(int balance, int salary){
+        //            this.balance=balance;
+        //            this.salary=salary;
+        //        }
+        //
+        //        //getter
         public int getBalance() {
             return balance;
         }
