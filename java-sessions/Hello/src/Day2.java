@@ -8,7 +8,7 @@ void method(){
         }
         System.out.println(i);
     }
-    System.out.print("Its works");
+    System.out.println("Its works");
 }
 
 void main (){
