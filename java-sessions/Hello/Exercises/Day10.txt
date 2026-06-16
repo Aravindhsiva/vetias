@@ -1,0 +1,10 @@
+Student
+Name
+regNo
+Marks
+
+LinkedList<Student> students
+
+ Add 5 Students
+Remove 1 student
+Update 1 Student if his/her name matches searchValue
