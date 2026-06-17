@@ -18,7 +18,6 @@ public class Day10_Ex {
         System.out.println("Still running");
         System.out.println("Name :"+name);
 
-
     }
 
 }
