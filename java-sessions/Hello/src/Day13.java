@@ -7,11 +7,9 @@ import java.util.List;
 
 public class Day13 {
     // File -> nio
-
+/*
     static void main() {
         Path path = Path.of("files","report.txt");
-
-
         try{
             List<String> data = Files.readAllLines(path);
 
@@ -33,7 +31,24 @@ public class Day13 {
 
 
         } catch (IOException io){
-            System.out.println("Error reading file");
+            io.printStackTrace();
+        }
+    }
+    */
+    static void main(){
+        Path path = Path.of("files","students.csv");
+        try {
+            List<String> students = Files.readAllLines(path);
+
+            for (String line : students) {
+                String[] row = line.split(",");
+                for(int i = 0; i < row.length; i++){
+                    System.out.print(row[i]+" | ");
+                }
+                System.out.println();
+            }
+        } catch (IOException io) {
+            io.printStackTrace();
         }
     }
 
