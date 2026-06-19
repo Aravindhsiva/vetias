@@ -11,6 +11,7 @@ void main(){
             .strip()
             .replaceAll("~","")
             .replaceAll("-","");
+    // HelloWorld
     System.out.println(clean);
     System.out.println("Enter your age : ");
     int age = Integer.parseInt(scanner.nextLine());
