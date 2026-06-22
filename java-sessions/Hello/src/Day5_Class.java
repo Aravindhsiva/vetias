@@ -5,7 +5,7 @@ public class Day5_Class {
     }
     public static void main(String[] args) {
        Day5_Class obj = new Day5_Class();
-       obj.x;
+       //obj.x;
        obj.greet();
     }
 }

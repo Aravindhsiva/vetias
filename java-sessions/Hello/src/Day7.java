@@ -39,11 +39,11 @@ public class Day7 {
 
 
     public static void main(String[] args){
-        AudioNotification audioNotification = new AudioNotification("   arvaindg@gmsail.com    ");
-        audioNotification.sendAudioNotification();
-        audioNotification.
+        //AudioNotification audioNotification = new AudioNotification("   arvaindg@gmsail.com    ");
+        //audioNotification.sendAudioNotification();
+        //audioNotification.
 
-        TextNotification textNotification = new TextNotification("   1234567890    ");
-        textNotification.sendTextNotification();
+        //TextNotification textNotification = new TextNotification("   1234567890    ");
+        //textNotification.sendTextNotification();
     }
 }
